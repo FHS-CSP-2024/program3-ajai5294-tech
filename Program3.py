@@ -22,7 +22,7 @@ level3 = "semiprofessional"
 lower = 2000
 upper = 3000
 
-print("my name is ", name, " , I am ", age, "years old")
+print("my name is",name,"I am",age,"years old")
 print("my skills are")
 print("- ", skill1, " (", level1, ")")
 print("- ", skill2, " (", level2, ")")
