@@ -22,15 +22,17 @@ level3 = "semiprofessional"
 lower = 2000
 upper = 3000
 
-print("my name is",name,"I am",age,"years old")
+print("my name is "+name+","" I am",age,"years old")
+print()
 print("my skills are")
-print("- ", skill1, " (", level1, ")")
-print("- ", skill2, " (", level2, ")")
-print("- ", skill3, " (", level3, " )")
-print("I am looking for a job with a salary of", lower, "-", upper, "dollars per month")
+print(" -", skill1,"("+level1+")")
+print(" -", skill2,"("+level2+")")
+print(" -", skill3,"("+level3+")")
+print()
+print("I am looking for a job with a salary of " +str(lower)+"-" +str(upper)+" dollars per month")
 
 
-
+print("\n")
 
 
 ## Problem 2 ##
@@ -50,4 +52,15 @@ print("I am looking for a job with a salary of", lower, "-", upper, "dollars per
 
 x = input("X val: ")
 y = input("Y val: ")
+print("X val: " +x)
+print("Y val: " +y)
+print()
+sum = int(x)+int(y)
+diff = int(x)-int(y)
+mult = int(x)*int(y)
+div = int(x)/int(y)
+print(x+ " + "+y+" = " + str(sum))
+print(x+ " - "+y+" = " + str(diff))
+print(x+ " * "+y+" = " + str(mult))
+print(x+ " / "+y+" = " + str(div))
 
